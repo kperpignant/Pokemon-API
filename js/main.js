@@ -61,7 +61,7 @@ document.querySelector('button').addEventListener('click',getRealRegion);
 async function getRealRegion() {
   const wildCardInput = document.querySelector('#wildCard').value;
   const kagi = '573e39e3da904aa38cf155148250310';
-  const wildCardUrl = `http://api.weatherapi.com/v1/current.json?key=${kagi}&q=${wildCardInput}`;
+  const wildCardUrl = `https://api.weatherapi.com/v1/current.json?key=${kagi}&q=${wildCardInput}`;
 
   try {
     const response = await fetch(wildCardUrl);

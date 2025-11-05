@@ -13,7 +13,19 @@
 
 body {
   margin: 5% 20% 30% 20%;
-  background-color: gray;
+  background: #1e1e1e url('../img/bg.png') center/cover no-repeat fixed;
+  color: rgb(166, 0, 0);
+  font-size: larger;
+}
+fieldset {
+  background-color: #1e1e1e83;
+  font-size: large;
+  color: rgb(255, 0, 0);
+  text-align: center;
+}
+.pt1, .pt2 {
+  background-color: #1e1e1e83;
+  text-align: center;
 }
 
 /******************************************
